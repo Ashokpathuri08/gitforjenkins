@@ -99,7 +99,9 @@ public class FoodMenuController {
         FoodMenu foodMenu = foodService.checkFoodItemAvailability(itemName);
         return new ResponseEntity<>(foodMenu, HttpStatus.OK);
     }
-
+public void(){
+    System.out.println("Hello");
+}
 
 }
 
